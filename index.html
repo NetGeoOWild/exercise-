@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo.svg" alt="logo">
+        </a>
+        <div class="breadcrumbs">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">
+                Хлебные крошки
+              </a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">
+                Хлебные крошки
+              </a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">
+                Хлебные крошки
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="subscriptions">
+    <div class="subscriptions__top">
+      <div class="container">
+        <div class="subscriptions__top-box">
+          <h1 class="subscriptions__title">Подписки «Клерка»</h1>
+        </div>
+      </div>
+    </div>
+    <div class="subscriptions__bottom">
+      <div class="container">
+        <div class="subscriptions__bottom-box">
+          <h3 class="subscriptions__subtitle">Выберите рассылки, которые подходят именно вам</h3>
+          <div class="subscriptions__bottom-items">
+            <form class="subscriptions__bottom-form">
+              <input class="subscriptions__bottom-input" type="email" placeholder="Электронная почта">
+              <button class="subscriptions__bottom-btn" type="submit">Подписаться</button>
+              <button class="subscriptions__bottom-btn subscriptions__bottom-btnmobile" type="submit">
+                <img class="subscriptions__bottom-btn__img" src="images/arrow-btn.svg" alt="icon">
+              </button>
+            </form>
+          </div>
+          <div class="subscriptions__bottom-slide">
+            <label class="switch">
+              <input type="checkbox">
+              <span class="switch__slider round"></span>
+            </label>
+            <p class="switch__text">
+              Подписаться на все рассылки
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="mailing">
+    <div class="container">
+      <div class="mailing__inner">
+        <div class="mailing__tabs tab__wrapper">
+          <a class="tab tab--active" href="#tab-1">Рассылки</a>
+          <a class="tab" href="#tab-2">Соцсети</a>
+          <a class="tab" href="#tab-3">Мессенджеры</a>
+        </div>
+        <div class="tabs__content tabs__content--active" id="tab-1">
+          <div class="tabs__item">
+            <div class="tabs__item-box">
+              <div class="tabs__item-boxtext">
+                <h6 class="tabs__item-subtitle">Перед рассветом</h6>
+                <h2 class="tabs__item-title">Утренний бухгалтер</h2>
+                <p class="tabs__item-text">
+                  Самые важные новости и события за день. Кратко, по делу, структурировано.
+                </p>
+              </div>
+              <img class="tabs__item-img" src="images/content-1.png" alt="image">
+            </div>
+            <ul class="tabs__item-list">
+              <li class="tabs__item-items">Новости для бухгалтеров, ИП и директора</li>
+              <li class="tabs__item-items">Подборка статей за день</li>
+            </ul>
+            <div class="tabs__item-slide">
+              <label class="switch">
+                <input type="checkbox">
+                <span class="switch__slider round"></span>
+              </label>
+              <p class="switch__text">
+                Уже получает 59 342 человек
+              </p>
+            </div>
+          </div>
+          <div class="tabs__item">
+            <div class="tabs__item-box">
+              <div class="tabs__item-boxtext">
+                <h6 class="tabs__item-subtitle">После заката</h6>
+                <h2 class="tabs__item-title">Ночной бухгалтер</h2>
+                <p class="tabs__item-text">
+                  Самая краткая газета о налогах и бухучете в мире — современная рассылка для чтения.
+                </p>
+              </div>
+              <img class="tabs__item-img" src="images/content-2.png" alt="image">
+            </div>
+            <ul class="tabs__item-list">
+              <li class="tabs__item-items">Анализ, оценка и только самое главное</li>
+              <li class="tabs__item-items">Лучшие комменты юзеров в обзоре</li>
+            </ul>
+            <div class="tabs__item-slide">
+              <label class="switch">
+                <input type="checkbox">
+                <span class="switch__slider round"></span>
+              </label>
+              <p class="switch__text">
+                Уже получает 37 480 человек
+              </p>
+            </div>
+          </div>
+          <div class="tabs__item">
+            <div class="tabs__item-box">
+              <div class="tabs__item-boxtext">
+                <h6 class="tabs__item-subtitle">Раз в две недели</h6>
+                <h2 class="tabs__item-title">Ножницы скидок</h2>
+                <p class="tabs__item-text">
+                  Подборка самых выгодных и полезных спецпредложений от надежных компаний.
+                </p>
+              </div>
+              <img class="tabs__item-img" src="images/content-3.png" alt="image">
+            </div>
+            <ul class="tabs__item-list">
+              <li class="tabs__item-items">Акции и скидки от лидеров рынка</li>
+              <li class="tabs__item-items">Те, кто подписался – экономят много денег </li>
+            </ul>
+            <div class="tabs__item-slide">
+              <label class="switch">
+                <input type="checkbox">
+                <span class="switch__slider round"></span>
+              </label>
+              <p class="switch__text">
+                Уже получает 92 118 человек
+              </p>
+            </div>
+          </div>
+          <div class="tabs__item">
+            <div class="tabs__item-box">
+              <div class="tabs__item-boxtext">
+                <h6 class="tabs__item-subtitle">По мере появления анонсов</h6>
+                <h2 class="tabs__item-title">Чемодан вебинаров</h2>
+                <p class="tabs__item-text">
+                  Подборка с анонсами бесплатных вебинаров на самые топовые темы при участии экспертов.
+                </p>
+              </div>
+              <img class="tabs__item-img" src="images/content-4.png" alt="image">
+            </div>
+            <ul class="tabs__item-list">
+              <li class="tabs__item-items">Никогда не пришлем платные вебинары</li>
+              <li class="tabs__item-items">Подборка топовых тем для вебинаров</li>
+            </ul>
+            <div class="tabs__item-slide">
+              <label class="switch">
+                <input type="checkbox">
+                <span class="switch__slider round"></span>
+              </label>
+              <p class="switch__text">
+                Уже получает 92 082 человек
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="tabs__content" id="tab-2">
+          <div class="tabs__item">
+            <div class="tabs__item-box">
+              <div class="tabs__item-boxtext">
+                <h6 class="tabs__item-subtitle">После заката</h6>
+                <h2 class="tabs__item-title">Ночной бухгалтер</h2>
+                <p class="tabs__item-text">
+                  Самая краткая газета о налогах и бухучете в мире — современная рассылка для чтения.
+                </p>
+              </div>
+              <img class="tabs__item-img" src="images/content-2.png" alt="image">
+            </div>
+            <ul class="tabs__item-list">
+              <li class="tabs__item-items">Анализ, оценка и только самое главное</li>
+              <li class="tabs__item-items">Лучшие комменты юзеров в обзоре</li>
+            </ul>
+            <div class="tabs__item-slide">
+              <label class="switch">
+                <input type="checkbox">
+                <span class="switch__slider round"></span>
+              </label>
+              <p class="switch__text">
+                Уже получает 37 480 человек
+              </p>
+            </div>
+          </div>
+          <div class="tabs__item">
+            <div class="tabs__item-box">
+              <div class="tabs__item-boxtext">
+                <h6 class="tabs__item-subtitle">Перед рассветом</h6>
+                <h2 class="tabs__item-title">Утренний бухгалтер</h2>
+                <p class="tabs__item-text">
+                  Самые важные новости и события за день. Кратко, по делу, структурировано.
+                </p>
+              </div>
+              <img class="tabs__item-img" src="images/content-1.png" alt="image">
+            </div>
+            <ul class="tabs__item-list">
+              <li class="tabs__item-items">Новости для бухгалтеров, ИП и директора</li>
+              <li class="tabs__item-items">Подборка статей за день</li>
+            </ul>
+            <div class="tabs__item-slide">
+              <label class="switch">
+                <input type="checkbox">
+                <span class="switch__slider round"></span>
+              </label>
+              <p class="switch__text">
+                Уже получает 59 342 человек
+              </p>
+            </div>
+          </div>
+          <div class="tabs__item">
+            <div class="tabs__item-box">
+              <div class="tabs__item-boxtext">
+                <h6 class="tabs__item-subtitle">По мере появления анонсов</h6>
+                <h2 class="tabs__item-title">Чемодан вебинаров</h2>
+                <p class="tabs__item-text">
+                  Подборка с анонсами бесплатных вебинаров на самые топовые темы при участии экспертов.
+                </p>
+              </div>
+              <img class="tabs__item-img" src="images/content-4.png" alt="image">
+            </div>
+            <ul class="tabs__item-list">
+              <li class="tabs__item-items">Никогда не пришлем платные вебинары</li>
+              <li class="tabs__item-items">Подборка топовых тем для вебинаров</li>
+            </ul>
+            <div class="tabs__item-slide">
+              <label class="switch">
+                <input type="checkbox">
+                <span class="switch__slider round"></span>
+              </label>
+              <p class="switch__text">
+                Уже получает 92 082 человек
+              </p>
+            </div>
+          </div>
+          <div class="tabs__item">
+            <div class="tabs__item-box">
+              <div class="tabs__item-boxtext">
+                <h6 class="tabs__item-subtitle">Раз в две недели</h6>
+                <h2 class="tabs__item-title">Ножницы скидок</h2>
+                <p class="tabs__item-text">
+                  Подборка самых выгодных и полезных спецпредложений от надежных компаний.
+                </p>
+              </div>
+              <img class="tabs__item-img" src="images/content-3.png" alt="image">
+            </div>
+            <ul class="tabs__item-list">
+              <li class="tabs__item-items">Акции и скидки от лидеров рынка</li>
+              <li class="tabs__item-items">Те, кто подписался – экономят много денег </li>
+            </ul>
+            <div class="tabs__item-slide">
+              <label class="switch">
+                <input type="checkbox">
+                <span class="switch__slider round"></span>
+              </label>
+              <p class="switch__text">
+                Уже получает 92 118 человек
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="tabs__content" id="tab-3">
+          <div class="tabs__item">
+            <div class="tabs__item-box">
+              <div class="tabs__item-boxtext">
+                <h6 class="tabs__item-subtitle">Перед рассветом</h6>
+                <h2 class="tabs__item-title">Утренний бухгалтер</h2>
+                <p class="tabs__item-text">
+                  Самые важные новости и события за день. Кратко, по делу, структурировано.
+                </p>
+              </div>
+              <img class="tabs__item-img" src="images/content-1.png" alt="image">
+            </div>
+            <ul class="tabs__item-list">
+              <li class="tabs__item-items">Новости для бухгалтеров, ИП и директора</li>
+              <li class="tabs__item-items">Подборка статей за день</li>
+            </ul>
+            <div class="tabs__item-slide">
+              <label class="switch">
+                <input type="checkbox">
+                <span class="switch__slider round"></span>
+              </label>
+              <p class="switch__text">
+                Уже получает 59 342 человек
+              </p>
+            </div>
+          </div>
+          <div class="tabs__item">
+            <div class="tabs__item-box">
+              <div class="tabs__item-boxtext">
+                <h6 class="tabs__item-subtitle">После заката</h6>
+                <h2 class="tabs__item-title">Ночной бухгалтер</h2>
+                <p class="tabs__item-text">
+                  Самая краткая газета о налогах и бухучете в мире — современная рассылка для чтения.
+                </p>
+              </div>
+              <img class="tabs__item-img" src="images/content-2.png" alt="image">
+            </div>
+            <ul class="tabs__item-list">
+              <li class="tabs__item-items">Анализ, оценка и только самое главное</li>
+              <li class="tabs__item-items">Лучшие комменты юзеров в обзоре</li>
+            </ul>
+            <div class="tabs__item-slide">
+              <label class="switch">
+                <input type="checkbox">
+                <span class="switch__slider round"></span>
+              </label>
+              <p class="switch__text">
+                Уже получает 37 480 человек
+              </p>
+            </div>
+          </div>
+          <div class="tabs__item">
+            <div class="tabs__item-box">
+              <div class="tabs__item-boxtext">
+                <h6 class="tabs__item-subtitle">Раз в две недели</h6>
+                <h2 class="tabs__item-title">Ножницы скидок</h2>
+                <p class="tabs__item-text">
+                  Подборка самых выгодных и полезных спецпредложений от надежных компаний.
+                </p>
+              </div>
+              <img class="tabs__item-img" src="images/content-3.png" alt="image">
+            </div>
+            <ul class="tabs__item-list">
+              <li class="tabs__item-items">Акции и скидки от лидеров рынка</li>
+              <li class="tabs__item-items">Те, кто подписался – экономят много денег </li>
+            </ul>
+            <div class="tabs__item-slide">
+              <label class="switch">
+                <input type="checkbox">
+                <span class="switch__slider round"></span>
+              </label>
+              <p class="switch__text">
+                Уже получает 92 118 человек
+              </p>
+            </div>
+          </div>
+          <div class="tabs__item">
+            <div class="tabs__item-box">
+              <div class="tabs__item-boxtext">
+                <h6 class="tabs__item-subtitle">По мере появления анонсов</h6>
+                <h2 class="tabs__item-title">Чемодан вебинаров</h2>
+                <p class="tabs__item-text">
+                  Подборка с анонсами бесплатных вебинаров на самые топовые темы при участии экспертов.
+                </p>
+              </div>
+              <img class="tabs__item-img" src="images/content-4.png" alt="image">
+            </div>
+            <ul class="tabs__item-list">
+              <li class="tabs__item-items">Никогда не пришлем платные вебинары</li>
+              <li class="tabs__item-items">Подборка топовых тем для вебинаров</li>
+            </ul>
+            <div class="tabs__item-slide">
+              <label class="switch">
+                <input type="checkbox">
+                <span class="switch__slider round"></span>
+              </label>
+              <p class="switch__text">
+                Уже получает 92 082 человек
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a class="footer__logo" href="#">
+          <img class="footer__logo-img" src="images/logo.svg" alt="logo">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
